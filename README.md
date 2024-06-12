@@ -14,20 +14,23 @@ Google Colab에서 제작하였습니다
 안전모 탐지를 위한 데이터 세트
 https://public.roboflow.com/object-detection/hard-hat-workers
 사용 AI 모델
-yolo5 . 가장 빠른 인스톨로 실시간 탐지에 유리하다. . ON 알고리즘 중 가장 활발하게 연구활동이 이루어지고 있다.
-YOLOv5u는 객체 감지 방법론의 진보를 나타냅니다. 기본 아키텍처에서 출발한 YOLOv5 모델( Ultralytics)의 기본 아키텍처에서 유래한 YOLOv5u는 이전에 소개된 앵커가 없고 물체가 없는 분할 헤드를 통합하여 YOLOv8 모델에 도입된 기능입니다. 이러한 조정은 모델의 아키텍처를 개선하여 물체 감지 작업에서 정확도와 속도 간의 트레이드 오프가 개선되었습니다. 경험적 결과와 그로부터 도출된 특징을 고려할 때, YOLOv5u는 연구와 실제 애플리케이션 모두에서 강력한 솔루션을 찾는 사람들에게 효율적인 대안을 제공합니다.
-AI 응용 SW를 개발하는 5단계
-What? 내가 어떤 모델을 개발할 것인지
-DataSet을 준비한다. - 양질의 DataSet은 SW 품질을 좌우한다.
-적절한 Pre-Trainer된 AI 모델을 선택한다.
-오늘 공부할 내용
-Fire-Training : 2에서 준비한 dataSet을 이용해서 3을 Customaizing한다.
-마지막으로
-응용 SW를 제작한다. . webAPP - 이전에 실습했던 TM을 기억한다. . nativeAPP -python과 pyQT로 작성했던 기억.
-더블클릭 또는 Enter 키를 눌러 수정
+yolo5 . 가장 빠른 인스톨로 실시간 탐지에 유리하다. . ON 알고리즘 중 가장 활발하게 연구활동이 이루어지고 있다.  
+YOLOv5u는 객체 감지 방법론의 진보를 나타냅니다. 기본 아키텍처에서 출발한 YOLOv5 모델( Ultralytics)의 기본 아키텍처에서 유래한  
+ YOLOv5u는 이전에 소개된 앵커가 없고 물체가 없는 분할 헤드를 통합하여 YOLOv8 모델에 도입된 기능입니다. 이러한 조정은 모델의 아키텍처 
+ 를 개선하여 물체 감지 작업에서 정확도와 속도 간의 트레이드 오프가 개선되었습니다. 경험적 결과와 그로부터 도출된 특징을 고려할 때,  
+ YOLOv5u는 연구와 실제 애플리케이션 모두에서 강력한 솔루션을 찾는 사람들에게 효율적인 대안을 제공합니다.  
+AI 응용 SW를 개발하는 5단계  
+What? 내가 어떤 모델을 개발할 것인지  
+DataSet을 준비한다. - 양질의 DataSet은 SW 품질을 좌우한다.  
+적절한 Pre-Trainer된 AI 모델을 선택한다.  
+오늘 공부할 내용  
+Fire-Training : 2에서 준비한 dataSet을 이용해서 3을 Customaizing한다.  
+마지막으로  
+응용 SW를 제작한다. . webAPP - 이전에 실습했던 TM을 기억한다. . nativeAPP -python과 pyQT로 작성했던 기억.  
+더블클릭 또는 Enter 키를 눌러 수정  
 
-YOLO Clon from github
-작업 폴더를 준비하고 이동한다.
+YOLO Clon from github  
+작업 폴더를 준비하고 이동한다.  
 [ ]
 %cd /content
 /content
